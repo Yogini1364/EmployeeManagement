@@ -8,7 +8,7 @@ public class EmployeeController {
 	
 	public static void main(String[] args) {
 		EmployeeDao dao=new EmployeeDao();
-		
+		System.out.println("initial");
 		Employee emp=new Employee("Sidhu", 35000);
 		System.out.println(dao.saveEmployee(emp));
 		
